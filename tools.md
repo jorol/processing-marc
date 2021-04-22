@@ -101,3 +101,10 @@ For more information of these tools you can read their `man` or `help` pages, e.
 $ man yaz-marcdump
 $ xmllint --help
 ```
+
+## More tools
+
+Several other software tools and libraries to process MARC data are available, see:  
+
++ MARC Specialized Tools <https://www.loc.gov/marc/marctools.html>
++ Catmandu - Related projects <https://librecat.org/Catmandu/#selected-formats>
