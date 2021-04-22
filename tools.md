@@ -90,7 +90,7 @@ $ sudo apt install libxml2-utils
 For transformation of XML data with XSL stylesheets we need a [XSLT](https://en.wikipedia.org/wiki/XSLT) processor.
 
 ```terminal
-sudo apt install xsltproc
+$ sudo apt install xsltproc
 ```
 
 ## Documenation
