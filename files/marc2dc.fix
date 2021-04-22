@@ -1,0 +1,54 @@
+# DC - http://www.loc.gov/marc/marc2dc.html
+
+# Create URI for ID
+prepend(_id,'https://example.org/id/')
+
+# Type of record
+marc_map(LDR/6,dcterms_medium)
+lookup(dcterms_medium,dict_medium.csv)
+
+# Category of material 
+marc_map(007/0,dc_type)
+lookup(dc_type,dict_type.csv)
+
+# Language
+marc_map(008/35-37,dc_language,split:1)
+marc_map(041abdefghj,dc_language,split:1)
+flatten(dc_language)
+sort_field(dc_language,uniq:1)
+lookup(dc_language.*,dict_languages.csv,delete:1)
+
+# ISBN
+marc_map(020a,dc_identifier,split:1)
+# Transform identifier to URIs
+if exists(dc_identifier)    
+    replace_all(dc_identifier.*,' .*','')
+    do maybe()     
+        isbn13(dc_identifier.*)
+    end    
+    prepend(dc_identifier.*,'urn:isbn:')
+    sort_field(dc_identifier,uniq:1)
+end
+
+# DDC subjects
+marc_map(082a,dc_subject,split:1)
+
+# Contributor
+marc_map(100a,dc_contributor,split:1)
+marc_map(700a,dc_contributor,split:1)
+marc_map(720a,dc_contributor,split:1)
+flatten(dc_contributor)
+
+# Title
+marc_map(245ab,dc_title,join:' ')
+
+# Publisher
+marc_map(260ab,dc_publisher.$append,join:' : ')
+
+# Dates
+marc_map(260c,dc_date,split:1)
+# Clean dates and get unique dates
+replace_all(dc_date.*,'[^0-9]+','') 
+sort_field(dc_date,uniq:1)
+
+remove_field(record)

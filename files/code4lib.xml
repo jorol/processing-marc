@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim">
+    <marc:record>
+        <marc:leader>00000nas a2200000 c 4500</marc:leader>
+        <marc:controlfield tag="001">987874829</marc:controlfield>
+        <marc:controlfield tag="003">DE-101</marc:controlfield>
+        <marc:controlfield tag="005">20200306093601.0</marc:controlfield>
+        <marc:controlfield tag="007">cr||||||||||||</marc:controlfield>
+        <marc:controlfield tag="008">080311c20079999|||u||p|o ||| 0||||1eng c</marc:controlfield>
+        <marc:datafield ind1="7" ind2=" " tag="016">
+            <marc:subfield code="2">DE-101</marc:subfield>
+            <marc:subfield code="a">987874829</marc:subfield>
+        </marc:datafield>
+        <marc:datafield ind1="7" ind2=" " tag="016">
+            <marc:subfield code="2">DE-600</marc:subfield>
+            <marc:subfield code="a">2415107-5</marc:subfield>
+        </marc:datafield>
+        <marc:datafield ind1=" " ind2=" " tag="022">
+            <marc:subfield code="a">1940-5758</marc:subfield>
+        </marc:datafield>
+        <marc:datafield ind1=" " ind2=" " tag="035">
+            <marc:subfield code="a">(DE-599)ZDB2415107-5</marc:subfield>
+        </marc:datafield>
+        <marc:datafield ind1=" " ind2=" " tag="035">
+            <marc:subfield code="a">(OCoLC)502377032</marc:subfield>
+        </marc:datafield>
+        <marc:datafield ind1=" " ind2=" " tag="040">
+            <marc:subfield code="a">8999</marc:subfield>
+            <marc:subfield code="b">ger</marc:subfield>
+            <marc:subfield code="c">DE-101</marc:subfield>
+            <marc:subfield code="d">0023</marc:subfield>
+        </marc:datafield>
+        <marc:datafield ind1=" " ind2=" " tag="041">
+            <marc:subfield code="a">eng</marc:subfield>
+        </marc:datafield>
+        <marc:datafield ind1="7" ind2="4" tag="082">
+            <marc:subfield code="a">020</marc:subfield>
+            <marc:subfield code="q">DE-600</marc:subfield>
+            <marc:subfield code="2">22sdnb</marc:subfield>
+        </marc:datafield>
+        <marc:datafield ind1=" " ind2=" " tag="084">
+            <marc:subfield code="a">BBI</marc:subfield>
+            <marc:subfield code="q">DE-23</marc:subfield>
+            <marc:subfield code="2">fid</marc:subfield>
+        </marc:datafield>
+        <marc:datafield ind1="0" ind2="0" tag="245">
+            <marc:subfield code="a">Code4Lib journal</marc:subfield>
+            <marc:subfield code="b">C4LJ</marc:subfield>
+        </marc:datafield>
+        <marc:datafield ind1="3" ind2=" " tag="246">
+            <marc:subfield code="a">C4LJ</marc:subfield>
+        </marc:datafield>
+        <marc:datafield ind1="3" ind2="1" tag="264">
+            <marc:subfield code="a">[S.l.]</marc:subfield>
+            <marc:subfield code="c">2007-</marc:subfield>
+        </marc:datafield>
+        <marc:datafield ind1=" " ind2=" " tag="300">
+            <marc:subfield code="a">Online-Ressource</marc:subfield>
+        </marc:datafield>
+        <marc:datafield ind1=" " ind2=" " tag="336">
+            <marc:subfield code="a">Text</marc:subfield>
+            <marc:subfield code="b">txt</marc:subfield>
+            <marc:subfield code="2">rdacontent</marc:subfield>
+        </marc:datafield>
+        <marc:datafield ind1=" " ind2=" " tag="337">
+            <marc:subfield code="a">Computermedien</marc:subfield>
+            <marc:subfield code="b">c</marc:subfield>
+            <marc:subfield code="2">rdamedia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield ind1=" " ind2=" " tag="338">
+            <marc:subfield code="a">Online-Ressource</marc:subfield>
+            <marc:subfield code="b">cr</marc:subfield>
+            <marc:subfield code="2">rdacarrier</marc:subfield>
+        </marc:datafield>
+        <marc:datafield ind1="0" ind2=" " tag="362">
+            <marc:subfield code="a">1.2007 -</marc:subfield>
+        </marc:datafield>
+        <marc:datafield ind1="0" ind2="1" tag="363">
+            <marc:subfield code="8">1.1\x</marc:subfield>
+            <marc:subfield code="a">1</marc:subfield>
+            <marc:subfield code="i">2007</marc:subfield>
+        </marc:datafield>
+        <marc:datafield ind1=" " ind2="7" tag="655">
+            <marc:subfield code="0">(DE-588)4067488-5</marc:subfield>
+            <marc:subfield code="0">https://d-nb.info/gnd/4067488-5</marc:subfield>
+            <marc:subfield code="0">(DE-101)040674886</marc:subfield>
+            <marc:subfield code="a">Zeitschrift</marc:subfield>
+            <marc:subfield code="2">gnd-content</marc:subfield>
+        </marc:datafield>
+        <marc:datafield ind1="4" ind2=" " tag="856">
+            <marc:subfield code="u">http://journal.code4lib.org/</marc:subfield>
+            <marc:subfield code="x">Verlag</marc:subfield>
+            <marc:subfield code="z">kostenfrei</marc:subfield>
+        </marc:datafield>
+        <marc:datafield ind1="4" ind2=" " tag="856">
+            <marc:subfield code="u">http://www.bibliothek.uni-regensburg.de/ezeit/?2415107</marc:subfield>
+            <marc:subfield code="x">EZB</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+</marc:collection>

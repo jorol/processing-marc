@@ -1,0 +1,28 @@
+987874829 FMT   L BK
+987874829 LDR   L 01031nas^a2200337^c^4500
+987874829 001   L 987874829
+987874829 003   L DE-101
+987874829 005   L 20200306093601.0
+987874829 007   L cr||||||||||||
+987874829 008   L 080311c20079999|||u||p|o^|||^0||||1eng^c
+987874829 0167  L $$2DE-101$$a987874829
+987874829 0167  L $$2DE-600$$a2415107-5
+987874829 022   L $$a1940-5758
+987874829 035   L $$a(DE-599)ZDB2415107-5
+987874829 035   L $$a(OCoLC)502377032
+987874829 040   L $$a8999$$bger$$cDE-101$$d0023
+987874829 041   L $$aeng
+987874829 08274 L $$a020$$qDE-600$$222sdnb
+987874829 084   L $$aBBI$$qDE-23$$2fid
+987874829 24500 L $$aCode4Lib journal$$bC4LJ
+987874829 2463  L $$aC4LJ
+987874829 26431 L $$a[S.l.]$$c2007-
+987874829 300   L $$aOnline-Ressource
+987874829 336   L $$aText$$btxt$$2rdacontent
+987874829 337   L $$aComputermedien$$bc$$2rdamedia
+987874829 338   L $$aOnline-Ressource$$bcr$$2rdacarrier
+987874829 3620  L $$a1.2007 -
+987874829 36301 L $$81.1\x$$a1$$i2007
+987874829 655 7 L $$0(DE-588)4067488-5$$0https://d-nb.info/gnd/4067488-5$$0(DE-101)040674886$$aZeitschrift$$2gnd-content
+987874829 8564  L $$uhttp://journal.code4lib.org/$$xVerlag$$zkostenfrei
+987874829 8564  L $$uhttp://www.bibliothek.uni-regensburg.de/ezeit/?2415107$$xEZB

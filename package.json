@@ -1,0 +1,15 @@
+{
+  "node": ">=10",
+  "scripts": {
+    "serve": "docsify serve",
+    "lint": "markdownlint *.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pro4bib/pica.git"
+  },
+  "dependencies": {
+    "docsify-cli": "^4.4.1",
+    "markdownlint-cli": "^0.23.1"
+  }
+}

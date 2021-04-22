@@ -1,0 +1,26 @@
+<collection xmlns="http://www.indexdata.com/turbomarc">
+<r>
+  <l>00251nas a2200121 c 4500</l>
+  <c001>987874829</c001>
+  <c007>cr||||||||||||</c007>
+  <d022 i1=" " i2=" ">
+    <sa>1940-5758</sa>
+  </d022>
+  <d041 i1=" " i2=" ">
+    <sa>eng</sa>
+  </d041>
+  <d245 i1="0" i2="0">
+    <sa>Code4Lib journal</sa>
+    <sb>C4LJ</sb>
+  </d245>
+  <d246 i1="3" i2=" ">
+    <sa>C4LJ</sa>
+  </d246>
+  <d362 i1="0" i2=" ">
+    <sa>1.2007 -</sa>
+  </d362>
+  <d856 i1="4" i2=" ">
+    <su>http://journal.code4lib.org/</su>
+  </d856>
+</r>
+</collection>

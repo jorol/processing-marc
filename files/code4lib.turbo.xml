@@ -1,0 +1,99 @@
+<collection xmlns="http://www.indexdata.com/turbomarc">
+<r>
+  <l>00000nas a2200000 c 4500</l>
+  <c001>987874829</c001>
+  <c003>DE-101</c003>
+  <c005>20200306093601.0</c005>
+  <c007>cr||||||||||||</c007>
+  <c008>080311c20079999|||u||p|o ||| 0||||1eng c</c008>
+  <d016 i1="7" i2=" ">
+    <s2>DE-101</s2>
+    <sa>987874829</sa>
+  </d016>
+  <d016 i1="7" i2=" ">
+    <s2>DE-600</s2>
+    <sa>2415107-5</sa>
+  </d016>
+  <d022 i1=" " i2=" ">
+    <sa>1940-5758</sa>
+  </d022>
+  <d035 i1=" " i2=" ">
+    <sa>(DE-599)ZDB2415107-5</sa>
+  </d035>
+  <d035 i1=" " i2=" ">
+    <sa>(OCoLC)502377032</sa>
+  </d035>
+  <d040 i1=" " i2=" ">
+    <sa>8999</sa>
+    <sb>ger</sb>
+    <sc>DE-101</sc>
+    <sd>0023</sd>
+  </d040>
+  <d041 i1=" " i2=" ">
+    <sa>eng</sa>
+  </d041>
+  <d082 i1="7" i2="4">
+    <sa>020</sa>
+    <sq>DE-600</sq>
+    <s2>22sdnb</s2>
+  </d082>
+  <d084 i1=" " i2=" ">
+    <sa>BBI</sa>
+    <sq>DE-23</sq>
+    <s2>fid</s2>
+  </d084>
+  <d245 i1="0" i2="0">
+    <sa>Code4Lib journal</sa>
+    <sb>C4LJ</sb>
+  </d245>
+  <d246 i1="3" i2=" ">
+    <sa>C4LJ</sa>
+  </d246>
+  <d264 i1="3" i2="1">
+    <sa>[S.l.]</sa>
+    <sc>2007-</sc>
+  </d264>
+  <d300 i1=" " i2=" ">
+    <sa>Online-Ressource</sa>
+  </d300>
+  <d336 i1=" " i2=" ">
+    <sa>Text</sa>
+    <sb>txt</sb>
+    <s2>rdacontent</s2>
+  </d336>
+  <d337 i1=" " i2=" ">
+    <sa>Computermedien</sa>
+    <sb>c</sb>
+    <s2>rdamedia</s2>
+  </d337>
+  <d338 i1=" " i2=" ">
+    <sa>Online-Ressource</sa>
+    <sb>cr</sb>
+    <s2>rdacarrier</s2>
+  </d338>
+  <d362 i1="0" i2=" ">
+    <sa>1.2007 -</sa>
+  </d362>
+  <d363 i1="0" i2="1">
+    <s8>1.1\x</s8>
+    <sa>1</sa>
+    <si>2007</si>
+  </d363>
+  <d655 i1=" " i2="7">
+    <s0>(DE-588)4067488-5</s0>
+    <s0>https://d-nb.info/gnd/4067488-5</s0>
+    <s0>(DE-101)040674886</s0>
+    <sa>Zeitschrift</sa>
+    <s2>gnd-content</s2>
+  </d655>
+  <d856 i1="4" i2=" ">
+    <su>http://journal.code4lib.org/</su>
+    <sx>Verlag</sx>
+    <sz>kostenfrei</sz>
+  </d856>
+  <d856 i1="4" i2=" ">
+    <su>http://www.bibliothek.uni-regensburg.de/ezeit/?2415107</su>
+    <sx>EZB</sx>
+  </d856>
+</r>
+</collection>
