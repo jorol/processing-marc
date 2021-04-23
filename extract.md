@@ -209,7 +209,7 @@ marc_remove(9..)
 marc_remove(0359)
 ```
 
-### Replace stings in (sub)fields
+### Replace strings in (sub)fields
 
 Use [`marc_replace_all`](https://metacpan.org/pod/Catmandu::Fix::marc_replace_all) to replace a string in MARC (sub)fields.
 
