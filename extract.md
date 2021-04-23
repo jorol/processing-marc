@@ -21,49 +21,43 @@ $ head loc.mrc.xml
 If a namespace is set use the "local" XML element name in the [XPATH](https://www.w3.org/TR/2017/REC-xpath-31-20170321/) expression:
 
 ```
-$ xmllint --xpath '//*[local-name()='controlfield']/@tag' loc.mrc.xml 
-```
-
-A "hacky" alternative is to strip the namespace with `sed`:
-
-```terminal
-$ sed 's/xmlns=".*"//g' loc.mrc.xml | xmllint --xpath '//controlfield/@tag' -
+$ xmllint --xpath '//*[local-name()="controlfield"]/@tag' loc.mrc.xml 
 ```
 
 Extract all tags and count them:
 
 ```terminal
-$ sed 's/xmlns=".*"//g' loc.mrc.xml | xmllint --xpath '//@tag' - | sort | uniq -c
+$ xmllint --xpath '//@tag' loc.mrc.xml | sort | uniq -c
 ```
 
 Extract all subfields from MARC 245 fields:
 
 ```terminal
-$ sed 's/xmlns=".*"//g' loc.mrc.xml | xmllint --xpath '//datafield[@tag="245"]' -
+$ xmllint --xpath '//*[local-name()="datafield"][@*[local-name()="tag" and .="245"]]' loc.mrc.xml
 ```
 
-Extract subfield "a" MARC 245 fields:
+Extract subfield "a" from MARC 245 fields:
 
 ```terminal
-$ sed 's/xmlns=".*"//g' loc.mrc.xml | xmllint --xpath '//datafield[@tag="245"]/subfield[@code="a"]' -
+$ xmllint --xpath '//*[local-name()="datafield"][@*[local-name()="tag" and .="245"]]/*[local-name()="subfield"][@*[local-name()="code" and .="a"]]' loc.mrc.xml
 ```
 
-Extract content from subfield "a" MARC 245 fields:
+Extract content from subfield "a" from MARC 245 fields:
 
 ```terminal
-$ sed 's/xmlns=".*"//g' loc.mrc.xml | xmllint --xpath '//datafield[@tag="245"]/subfield[@code="a"]/text()' -
+$ xmllint --xpath '//*[local-name()="datafield"][@*[local-name()="tag" and .="245"]]/*[local-name()="subfield"][@*[local-name()="code" and .="a"]]/text()' loc.mrc.xml
 ```
 
 Extraxt all ISBNs:
 
 ```terminal
-$ sed 's/xmlns=".*"//g' loc.mrc.xml | xmllint --xpath '//datafield[@tag="020"]/subfield[@code="a"]/text()' -
+$ xmllint --xpath '//*[local-name()="datafield"][@*[local-name()="tag" and .="020"]]/*[local-name()="subfield"][@*[local-name()="code" and .="a"]]/text()' loc.mrc.xml
 ```
 
 Extract all DDC numbers:
 
 ```terminal
-$ sed 's/xmlns=".*"//g' loc.mrc.xml | xmllint --xpath '//datafield[@tag="082"]/subfield[@code="a"]/text()' -
+$ xmllint --xpath '//*[local-name()="datafield"][@*[local-name()="tag" and .="082"]]/*[local-name()="subfield"][@*[local-name()="code" and .="a"]]/text()' loc.mrc.xml
 ```
 
 ## ... with Catmandu
