@@ -62,7 +62,7 @@ $ xmllint --xpath '//*[local-name()="datafield"][@*[local-name()="tag" and .="08
 
 ## ... with Catmandu
 
-Catmandu uses a [domain specific language](https://en.wikipedia.org/wiki/Domain-specific_language) (DSL) called "fix" to extract, map and tranform data. Several "fixes" for library specifc data format like [MARC](https://metacpan.org/pod/Catmandu::MARC) and [PICA](https://metacpan.org/pod/Catmandu::PICA) are available. Most common "fixes" are documented on [cheat sheet](https://librecat.org/assets/catmandu_cheat_sheet.pdf). "Fixes" can be used as command-line options or stored in a "fix" file:
+Catmandu uses a [domain specific language](https://en.wikipedia.org/wiki/Domain-specific_language) (DSL) called "fix" to extract, map and tranform data. Several "fixes" for library specifc data format like [MARC](https://metacpan.org/pod/Catmandu::MARC) and [PICA](https://metacpan.org/pod/Catmandu::PICA) are available. Most common "fixes" are documented on a [cheat sheet](https://librecat.org/assets/catmandu_cheat_sheet.pdf). "Fixes" can be used as command-line options or stored in a "fix" file:
 
 ```terminal
 $ catmandu convert MARC to CSV --fix 'marc_map(001,id); retain_field(id)' < loc.mrc
@@ -99,7 +99,7 @@ marc_map('246[1,4]',marc_varyingFormOfTitle)
 
 ### Extract subfields
 
-To extract certain subfields from a MARC data field use the subfield codes. By default several subfields will be joined to one string. Use option `join` to join them with another string. With option `split:1` you cal split the subfields to a list. Use option `pluck` if you want to extract the subfields in a certain order. 
+To extract certain subfields from a MARC data field use the subfield codes. By default several subfields will be joined to one string. Use option `join` to join them with another string. With option `split` you can split the subfields to a list. Use option `pluck` if you want to extract the subfields in a certain order. 
 
 ```
 marc_map(245ab,dc_title,join:' ')
@@ -112,7 +112,7 @@ marc_map(245ba,dc_title,split:1,pluck:1)
 
 ### Extract repeatable fields
 
-MARC data fields could be repeatbale. Use option `split:1` to create a list from all fields. 
+MARC data fields could be repeatbale. Use option `split` to create a list from all fields. 
 
 ```
 marc_map(650a,dc_subject,split:1)
