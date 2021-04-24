@@ -11,7 +11,7 @@ $ npm run serve
 
 ## Acknowledgement
 
-The manual "[Einführung in die Verarbeitung von PICA-Daten](https://pro4bib.github.io/pica/#/)" by [Jakob Voß](https://github.com/nichtich) was use as a template for this tutorial. 
+The manual "[Einführung in die Verarbeitung von PICA-Daten](https://pro4bib.github.io/pica/#/)" by [Jakob Voß](https://github.com/nichtich) was used as a template for this tutorial. 
 
 The technical infrastructure for providing this manual was copied from [Felix Lohmeier](https://felixlohmeier.de/), who, by the way, also provides other interesting introductions to data processing topics for library and cultural institutions. 
 
