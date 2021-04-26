@@ -21,7 +21,7 @@ Many libraries offer MARC 21 data via public [APIs](https://en.wikipedia.org/wik
 
 ### Z39.50
 
-Z39.50 is a standard ([ANSI/NISO Z39.50-2003](https://www.loc.gov/z3950/agency/Z39-50-2003.pdf)) that defines a client/server based service and protocol for information retrieval. Like MARC 21 Z39.50 has a quite long history (Lynch (1997) *The Z39.50 Information Retrieval Standard. Part I: A Strategic View of Its Past, Present and Future.* In D-Lib Magazine. <http://www.dlib.org/dlib/april97/04lynch.html>) and is maintained by Library of Congress.
+Z39.50 is a standard ([ANSI/NISO Z39.50-2003](https://www.loc.gov/z3950/agency/Z39-50-2003.pdf)) that defines a client/server based service and protocol for information retrieval. Like MARC 21 Z39.50 has a quite long history ([Lynch, 1997](http://www.dlib.org/dlib/april97/04lynch.html)) and is maintained by Library of Congress.
 
 Many libraries offer access to their Online Public Access Catalogues (OAPC) via Z39.50 server, e.g. [Library of Congress](https://www.loc.gov/z3950/lcserver.html) or [ZDB](https://www.zeitschriftendatenbank.de/services/schnittstellen/z3950/target-profile/). 
 
