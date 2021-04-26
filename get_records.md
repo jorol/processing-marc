@@ -2,7 +2,13 @@
 
 ## Open Data
 
-Several libraries and library networks publish their data as "[open data](https://en.wikipedia.org/wiki/Open_data)". [Péter Király](https://github.com/pkiraly) created a list of international open MARC 21 data sets at <https://github.com/pkiraly/metadata-qa-marc#datasources>. You can download them via the command line, e.g.:
+Several libraries and library networks publish their data as "[open data](https://en.wikipedia.org/wiki/Open_data)". 
+
+[Péter Király](https://github.com/pkiraly) created a list of international open MARC 21 data sets at &lt;https://github.com/pkiraly/metadata-qa-marc#datasources&gt;.
+
+The Internet Archive's [Open Library](http://openlibrary.org/) project is making thousands of library records freely available for anyone's use, see &lt;https://archive.org/details/ol_data&gt;.
+
+You can download the data sets via the command line, e.g.:
 
 ```bash
 $ wget http://ered.library.upenn.edu/data/opendata/pau.zip
