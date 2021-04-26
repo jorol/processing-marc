@@ -59,7 +59,7 @@ $ catmandu convert MARC --type XML to MARC --type MiJ < code4lib.xml > code4lib.
 "MARC XML" to YAML:
 
 ```terminal
-$ catmandu convert MARC to YAML --type MiJ < code4lib.mrc > code4lib.yml
+$ catmandu convert MARC to YAML < code4lib.mrc > code4lib.yml
 ```
 
 The [Catmandu::Breaker](https://metacpan.org/pod/Catmandu::Breaker) module "breaks" data into smaller components and exports them line by line:
