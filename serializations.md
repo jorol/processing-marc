@@ -10,7 +10,7 @@ A "MARC (ISO 2709)" record ([ISO 2709:2008](https://www.iso.org/standard/41319.h
 
 The [leader](https://www.loc.gov/marc/specifications/specrecstruc.html#leader) has a fixed length of 24 ASCII characters which provide some basic information for processing the record. Data elements are positionally defined, see https://www.loc.gov/marc/bibliographic/bdleader.html. Leader positions 00-05  define the length of the records. The total length of a "MARC (2709)" record is limited to 99999 bytes. Position 09 defines the "character coding scheme" ([MARC-8](https://www.loc.gov/marc/specifications/specchartables.html) or [Unicode](https://www.iso.org/standard/69119.html)). 
 
-The [directory](https://www.loc.gov/marc/specifications/specrecstruc.html#direct) is variable sequence of entries, describing the tag , length and the starting position of each field. Each directory entry has a length of 12 characters: 
+The [directory](https://www.loc.gov/marc/specifications/specrecstruc.html#direct) is variable sequence of entries, describing the tag, length and starting position of each field. Each directory entry has a length of 12 characters: 
 
 * tag: 00-02
 * lengt of field: 03-06
@@ -130,7 +130,7 @@ Example "Turbomarc" record:
 
 ## Line-based MARC formats
 
-There are several line-based MARC formats. These formats offer a more human-readable serialization of MARC records and are often used to examine, create or update MARC records. Several records are divided by a blank line. The formats differ slightly in the representation of MARC tags, indicators and subfield.
+There are several line-based MARC formats. These formats offer a more human-readable serialization of MARC records and are often used to examine, create or update MARC records. Several records are divided by a blank line. The formats differ slightly in the representation of MARC tags, indicators and subfields.
 
 ### MARC Line
 

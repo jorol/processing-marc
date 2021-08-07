@@ -6,7 +6,7 @@ For this tutorial we need some command-line tools to process MARC data. You can 
 
 ### Perl
 
-Some of these tools require a [Perl](https://www.perl.org/) interpreter. I recommend to install a local Perl environment on your system using [`perlbrew`](https://perlbrew.pl/):
+Some of these tools require a [Perl](https://www.perl.org/) interpreter. It is recommended to install a local Perl environment on your system using [`perlbrew`](https://perlbrew.pl/):
 
 ```terminal
 # install perlbrew

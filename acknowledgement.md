@@ -2,7 +2,6 @@
 
 The source code of this manual is written in Markdown syntax and maintained in a git repository. Comments, corrections and changes can be submitted [directly to GitHub](https://github.com/jorol/processing). For local development, [docsify](https://docsify.js.org/) is required:
 
-
 ```bash
 $ git clone git@github.com:jorol/processing-marc.git && cd processing-marc
 $ npm i

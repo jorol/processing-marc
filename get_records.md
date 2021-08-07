@@ -96,9 +96,9 @@ to MARC --type XML > code4lib.xml
 
 ### OAI-PMH
 
-[OAI-PMH](https://www.openarchives.org/OAI/openarchivesprotocol.html) (Open Archives Initiative Protocol for Metadata Harvesting) is a protocol for metadata replication and distribution. _Data providers_ host metadata records and their changes over time, so _service providers_ can harvest it. As SRU it uses HTTP as application layer protocol and XML for data serialization.  
+[OAI-PMH](https://www.openarchives.org/OAI/openarchivesprotocol.html) (Open Archives Initiative Protocol for Metadata Harvesting) is a protocol for metadata replication and distribution. _Data providers_ host metadata records and their changes over time, so _service providers_ can harvest them. As SRU it uses HTTP as application layer protocol and XML for data serialization.  
 
-The Catmandu toolkit provides an OAI-PMH _harvester_ "[Catmandu::Importer::OAI](https://metacpan.org/pod/Catmandu::Importer::SRU)":
+The Catmandu toolkit provides an OAI-PMH _harvester_ client "[Catmandu::Importer::OAI](https://metacpan.org/pod/Catmandu::Importer::SRU)":
 
 
 ```terminal

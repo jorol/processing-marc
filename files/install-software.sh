@@ -50,27 +50,6 @@ echo '### install Perl modules ###'
 # fix version dependencies
 cpanm XML::LibXML@2.0201
 cpanm -f LaTeX::ToUnicode@0.11
-# install cpm
-cpanm App::cpm
+
 # install modules
-cpm install -g Catmandu Catmandu::AlephX Catmandu::BibTeX Catmandu::Breaker Catmandu::Cmd::repl Catmandu::Exporter::Table Catmandu::Exporter::Template Catmandu::Fix::cmd Catmandu::Fix::Date Catmandu::Fix::XML Catmandu::Identifier Catmandu::Importer::getJSON Catmandu::Importer::MODS Catmandu::LIDO Catmandu::MAB2 Catmandu::MARC Catmandu::MODS Catmandu::OAI Catmandu::OCLC Catmandu::PICA Catmandu::PNX Catmandu::RDF Catmandu::SRU Catmandu::Stat Catmandu::Template Catmandu::Validator::JSONSchema Catmandu::Wikidata Catmandu::XLS Catmandu::XML Catmandu::XSD Catmandu::Z3950 MARC::Record::Stats MARC::Schema
-
-echo '### enable copy&paste between guest and host ###'
-sudo apt install -y linux-headers-generic linux-headers-$(uname -r)
-sudo apt install -y virtualbox-guest-additions-iso
-
-echo '### upgrade ###'
-sudo apt update
-sudo apt upgrade -y
-
-echo '### cleanup ... ### '
-sudo rm -rf /root/.cache
-sudo rm -rf /home/kim/.perl-cpm
-sudo rm -rf /home/kim/.cache
-sudo apt autoremove
-sudo apt clean
-sudo apt autoclean
-sudo rm -rf /home/kim/.bash_history
-
-echo '### reboot ###'
-sudo reboot
+cpanm Catmandu Catmandu::AlephX Catmandu::BibTeX Catmandu::Breaker Catmandu::Cmd::repl Catmandu::Exporter::Table Catmandu::Exporter::Template Catmandu::Fix::cmd Catmandu::Fix::Date Catmandu::Fix::XML Catmandu::Identifier Catmandu::Importer::getJSON Catmandu::Importer::MODS Catmandu::LIDO Catmandu::MAB2 Catmandu::MARC Catmandu::MODS Catmandu::OAI Catmandu::OCLC Catmandu::PICA Catmandu::PNX Catmandu::RDF Catmandu::SRU Catmandu::Stat Catmandu::Template Catmandu::Validator::JSONSchema Catmandu::Wikidata Catmandu::XLS Catmandu::XML Catmandu::XSD Catmandu::Z3950 MARC::Record::Stats MARC::Schema

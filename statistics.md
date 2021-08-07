@@ -33,7 +33,7 @@ Tag     Rep.    Occ.,%
 
 ## ... Catmandu
 
-If you want generate statistics for other MARC serialization use  [Catmandu::Breaker](https://metacpan.org/pod/Catmandu::Breaker). First you need to "break" the MARC records into pieces. Afterwards you can calculate statistics for MARC tags and subfield codes. 
+If you want generate statistics for other MARC serialization use [Catmandu::Breaker](https://metacpan.org/pod/Catmandu::Breaker). First you need to _break_ the MARC records into pieces. Afterwards you can calculate statistics for MARC tags and subfield codes. 
 
 ```terminal
 $ catmandu convert MARC --type XML to Breaker --handler marc < loc.mrc.xml > loc.breaker

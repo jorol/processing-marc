@@ -10,7 +10,7 @@ Use `yaz-marcdump` to convert the encoding of MARC records. Specify the encoding
 $ yaz-marcdump -f MARC-8 -t UTF-8 -o marc -l 9=97 marc21.raw > marc21.utf8.raw
 ```
 
-A conversion from UTF-8 to MARC-8 is not recommended, because it could be "lossy".
+A conversion from UTF-8 to MARC-8 is not recommended, because it could be lossy.
 
 ## Unicode normalization
 
@@ -27,7 +27,7 @@ $ uconv -x NFC marc21.nfd.xml > marc21.nfc.xml
 $ uconv -x NFD marc21.nfc.xml > marc21.nfd.xml
 ```
 
-You should only normalize "MARC XML" data, as the normalization of "MARC (ISO 2709)" would result in corrupted records, due to changed field length.  
+You should only normalize "MARC XML" data, as the normalization of "MARC (ISO 2709)" would result in corrupted records, due to changed field lengths.  
 
 
 

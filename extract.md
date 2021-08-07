@@ -62,7 +62,7 @@ $ xmllint --xpath '//*[local-name()="datafield"][@*[local-name()="tag" and .="08
 
 ## ... with Catmandu
 
-Catmandu uses a [domain specific language](https://en.wikipedia.org/wiki/Domain-specific_language) (DSL) called "fix" to extract, map and tranform data. Several "fixes" for library specifc data format like [MARC](https://metacpan.org/pod/Catmandu::MARC) and [PICA](https://metacpan.org/pod/Catmandu::PICA) are available. Most common "fixes" are documented on a [cheat sheet](https://librecat.org/assets/catmandu_cheat_sheet.pdf). "Fixes" can be used as command-line options or stored in a "fix" file:
+Catmandu uses a [domain specific language](https://en.wikipedia.org/wiki/Domain-specific_language) (DSL) called "fix" to extract, map and tranform data. Several "fixes" for library specifc data formats like [MARC](https://metacpan.org/pod/Catmandu::MARC) and [PICA](https://metacpan.org/pod/Catmandu::PICA) are available. Most common "fixes" are documented on a [cheat sheet](https://librecat.org/assets/catmandu_cheat_sheet.pdf). "Fixes" can be used as command-line options or stored in a "fix" file:
 
 ```terminal
 $ catmandu convert MARC to CSV --fix 'marc_map(001,id); retain_field(id)' < loc.mrc
@@ -112,7 +112,7 @@ marc_map(245ba,dc_title,split:1,pluck:1)
 
 ### Extract repeatable fields
 
-MARC data fields could be repeatbale. Use option `split` to create a list from all fields. 
+MARC data fields could be repeatable. Use option `split` to create a list from all fields. 
 
 ```
 marc_map(650a,dc_subject,split:1)
@@ -121,7 +121,7 @@ marc_map(650a,dc_subject,split:1)
 
 ### Extract repeatable subfields
 
-MARC subfields could be repeatable within a MARC data field.  Use option `split:1` to create a list from all fields. To create a list for all subfields within one data field use option `nested_arrays:1` which will return a "list of lists" of subfields, one list for each data field. 
+MARC subfields could be repeatable within a MARC data field. Use option `split:1` to create a list from all fields. To create a list for all subfields within one data field use option `nested_arrays:1` which will return a "list of lists" of subfields, one list for each data field. 
 
 ```
 marc_map(655ay,marc_indexTermGenre,split:1)
@@ -174,7 +174,7 @@ end
 
 ### Add fields to a record
 
-You can add field to MARC records with [`marc_add`](https://metacpan.org/pod/Catmandu::Fix::marc_add).
+You can add fields to MARC records with [`marc_add`](https://metacpan.org/pod/Catmandu::Fix::marc_add).
 
 ```
 marc_add(999,a,my,b,local,c,field)
@@ -232,7 +232,7 @@ select marc_match(245a,Perl)
 You can [`validate`](https://metacpan.org/pod/Catmandu::Fix::validate) MARC records and collect the error messages or filter [`valid`](https://metacpan.org/pod/Catmandu::Fix::Condition::valid) records.
 
 ```
-validate(.,MARC,error_field: errors)
+validate(.,MARC,error_field:errors)
 select valid(.,MARC)
 ``` 
 
