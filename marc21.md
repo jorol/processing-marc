@@ -9,7 +9,7 @@ A MARC record is composed of three elements:
 
 * Content designation: the codes and conventions established explicitly to identify and further characterize the data elements within a record.
 
-* Data content of the record: the content of the data elements that comprise a MARC record is usually defined by standards outside the format (e.g. [ISBD](https://www.ifla.org/publications/international-standard-bibliographic-description), [AACR2](http://www.aacr2.org/), [RDA](http://www.rda-jsc.org/archivedsite/rdaprospectus.html) ).
+* Data content of the record: the content of the data elements that comprise a MARC record is usually defined by standards outside the format (e.g. [ISBD](https://www.ifla.org/publications/international-standard-bibliographic-description), [AACR2](http://www.aacr2.org/), [RDA](http://www.rda-jsc.org/archivedsite/rdaprospectus.html)).
 
 The MARC 21 standard also provides [lists of source codes](https://www.loc.gov/standards/sourcelist/index.html) for vocabularies, rules and schemes.
 
