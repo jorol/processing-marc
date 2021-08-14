@@ -4,7 +4,7 @@
 
 "When MARC was created, the Beatles were a hot new group ..."
 
-In 2002 Roy Tennant declared ["MARC Must Die"](https://www.libraryjournal.com/?detailStory=marc-must-die). Today the [MARC 21](https://www.loc.gov/marc/) format is still the workhorse of library metadata. Even our "Next Generation Library Systems" heavily rely on this standard from the ‘60s. Since we will continue to work with MARC 21 in the coming years, this tutorial will give an introduction to MARC 21 with the following topics: 
+In 2002 Roy Tennant declared "[MARC Must Die](https://www.libraryjournal.com/?detailStory=marc-must-die)". Today the [MARC 21](https://www.loc.gov/marc/) format is still the workhorse of library metadata. Even our "Next Generation Library Systems" heavily rely on this standard from the ‘60s. Since we will continue to work with MARC 21 in the coming years, this tutorial will give an introduction to MARC 21 with the following topics: 
 
 - [MARC 21](marc21.md)
     - Introduction
