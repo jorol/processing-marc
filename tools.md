@@ -107,4 +107,5 @@ $ xmllint --help
 Several other software tools and libraries to process MARC data are available, see:  
 
 + MARC Specialized Tools <https://www.loc.gov/marc/marctools.html>
++ Working with MARC <https://wiki.code4lib.org/Working_with_MARC>
 + Catmandu - Related projects <https://librecat.org/Catmandu/#selected-formats>
