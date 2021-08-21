@@ -20,7 +20,7 @@ The length of a "MARC (2709)" record field is limited to 9999 bytes.
 
 The [variable fields](https://www.loc.gov/marc/specifications/specrecstruc.html#varifields) are [control fields](https://www.loc.gov/marc/bibliographic/bd00x.html) followed by data fields. Data fields consist of two indicators and a sequence of subfields. Indicators can be used interpret or supplement the data found in the field. Their meaning varies by field. Each subfield consists of a subfield code and the corresponding value. Data fields and subfields could be repeatable.
 
-A MARC record is terminated with a record terminator (Unicode character 'INFORMATION SEPARATOR THREE' [U+001D](https://www.fileformat.info/info/unicode/char/001d/index.htm)). Each part of a record is terminated with a field terminator (Unicode character 'INFORMATION SEPARATOR TWO' [U+001E](https://www.fileformat.info/info/unicode/char/001e/index.htm)). Each subfield of the data fields is terminated with a subfield terminator (Unicode character 'INFORMATION SEPARATOR THREE' [U+001F](https://www.fileformat.info/info/unicode/char/001e/index.htm)). 
+A MARC record is terminated with a record terminator (Unicode character 'INFORMATION SEPARATOR THREE' [U+001D](https://www.fileformat.info/info/unicode/char/001d/index.htm)). Each part of a record is terminated with a field terminator (Unicode character 'INFORMATION SEPARATOR TWO' [U+001E](https://www.fileformat.info/info/unicode/char/001e/index.htm)). Each subfield of the data fields is terminated with a subfield terminator (Unicode character 'INFORMATION SEPARATOR ONE' [U+001F](https://www.fileformat.info/info/unicode/char/001f/index.htm)). 
 
 Example "MARC (ISO 2709)" record:
 
