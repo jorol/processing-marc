@@ -11,10 +11,10 @@ In 2002 Roy Tennant declared "[MARC Must Die](https://www.libraryjournal.com/?de
     - Record elements
 - [Serializations](serializations.md) (MARCXML, MARCMaker, MARC-in-JSON, ALEPHSEQ) 
 - [Tools](tools.md)
-- Validation of MARC 21 records and common errors 
-- Statistical analysis of MARC 21 data sets 
-- Conversion of MARC 21 records 
-- Metadata extraction from MARC 21 records 
+- [Validation](validation.md) of MARC 21 records and common errors 
+- [Statistical analysis](statistics.md) of MARC 21 data sets 
+- [Conversion](transformation.md) of MARC 21 records 
+- [Metadata extraction](extract.md) from MARC 21 records 
 
 This tutorial is intended for systems librarians, metadata librarians and data manager. For most of the tasks we will use command line tools like `yaz-marcdump`, `marcstats`, `marcvalidate` and `catmandu`. A [VirtualBox](https://www.virtualbox.org/) image containing most of the required tools can be downloaded at the [Catmandu](https://librecatproject.wordpress.com/get-catmandu/) project.
 
