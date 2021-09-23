@@ -93,7 +93,7 @@ For transformation of XML data with XSL stylesheets we need a [XSLT](https://en.
 $ sudo apt install xsltproc
 ```
 
-## Documenation
+## Documentation
 
 For more information of these tools you can read their `man` or `help` pages, e.g.:
 
