@@ -44,6 +44,12 @@ $ catmandu convert MARC to MARC --type XML < code4lib.mrc > code4lib.xml
 $ catmandu convert MARC --type XML to MARC < code4lib.xml > code4lib.mrc
 ```
 
+"MARC (ISO 2709)" to "MARC Line":
+
+```terminal
+$ catmandu convert MARC to MARC --type Line < code4lib.mrc > code4lib.line
+```
+
 "MARC (ISO 2709)" to "MARCMaker":
 
 ```terminal
