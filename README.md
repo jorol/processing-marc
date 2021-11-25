@@ -11,6 +11,7 @@ In 2002 Roy Tennant declared "[MARC Must Die](https://www.libraryjournal.com/?de
     - Record elements
 - [Serializations](serializations.md) (MARCXML, MARCMaker, MARC-in-JSON, ALEPHSEQ) 
 - [Tools](tools.md)
+- [Get MARC records](get_records.md)
 - [Validation](validation.md) of MARC 21 records and common errors 
 - [Statistical analysis](statistics.md) of MARC 21 data sets 
 - [Conversion](transformation.md) of MARC 21 records 
