@@ -51,12 +51,12 @@ The Catmandu toolkit provides a Z39.50 client "[Catmandu::Importer::Z3950](https
 
 ```terminal
 $ catmandu convert -v Z3950 \
---host z3950.dnb.de \
+--host z3950.kobv.de \
 --port 210 \
---databaseName zdb \
---preferredRecordSyntax marc21 \
+--databaseName k2 \
+--preferredRecordSyntax usmarc \
 --queryType PQF \
---query '@attr 5=100 @attr 1=8 1940-5758' \
+--query '@attr 1=1016 code4lib' \
 --handler USMARC \
 to MARC > code4lib.mrc
 ```
