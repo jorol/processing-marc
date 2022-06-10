@@ -33,7 +33,7 @@ $ xmllint --xpath '//@tag' loc.mrc.xml | sort | uniq -c
 Extract all IDs from MARC 001:
 
 ```terminal
-$ xmllint --xpath '//*[local-name()="controlfield"][@tag="001"]/text()'  loc.mrc.xml
+$ xmllint --xpath '//*[local-name()="controlfield"][@tag="001"]/text()' loc.mrc.xml
 ```
 
 Extract all subfields from MARC 245 fields:
