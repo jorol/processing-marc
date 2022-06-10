@@ -30,34 +30,40 @@ Extract all tags and count them:
 $ xmllint --xpath '//@tag' loc.mrc.xml | sort | uniq -c
 ```
 
+Extract all IDs from MARC 001:
+
+```terminal
+$ xmllint --xpath '//*[local-name()="controlfield"][@tag="001"]/text()'  loc.mrc.xml
+```
+
 Extract all subfields from MARC 245 fields:
 
 ```terminal
-$ xmllint --xpath '//*[local-name()="datafield"][@*[local-name()="tag" and .="245"]]' loc.mrc.xml
+$ xmllint --xpath '//*[local-name()="datafield"][@tag="245"]' loc.mrc.xml
 ```
 
 Extract subfield "a" from MARC 245 fields:
 
 ```terminal
-$ xmllint --xpath '//*[local-name()="datafield"][@*[local-name()="tag" and .="245"]]/*[local-name()="subfield"][@*[local-name()="code" and .="a"]]' loc.mrc.xml
+$ xmllint --xpath '//*[local-name()="datafield"][@tag="245"]/*[local-name()="subfield"][@code="a"]/' loc.mrc.xml
 ```
 
 Extract content from subfield "a" from MARC 245 fields:
 
 ```terminal
-$ xmllint --xpath '//*[local-name()="datafield"][@*[local-name()="tag" and .="245"]]/*[local-name()="subfield"][@*[local-name()="code" and .="a"]]/text()' loc.mrc.xml
+$ xmllint --xpath '//*[local-name()="datafield"][@tag="245"]/*[local-name()="subfield"][@code="a"]/text()' loc.mrc.xml
 ```
 
 Extraxt all ISBNs:
 
 ```terminal
-$ xmllint --xpath '//*[local-name()="datafield"][@*[local-name()="tag" and .="020"]]/*[local-name()="subfield"][@*[local-name()="code" and .="a"]]/text()' loc.mrc.xml
+$ xmllint --xpath '//*[local-name()="datafield"][@tag="020"]/*[local-name()="subfield"][@code="a"]/text()' loc.mrc.xml
 ```
 
 Extract all DDC numbers:
 
 ```terminal
-$ xmllint --xpath '//*[local-name()="datafield"][@*[local-name()="tag" and .="082"]]/*[local-name()="subfield"][@*[local-name()="code" and .="a"]]/text()' loc.mrc.xml
+$ xmllint --xpath '//*[local-name()="datafield"][@tag="082"]/*[local-name()="subfield"][@code="a"]/text()' loc.mrc.xml
 ```
 
 ## ... with Catmandu
