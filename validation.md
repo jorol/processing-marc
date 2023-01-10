@@ -115,7 +115,7 @@ chabon-bad-subfields-element.xml fails to validate
 
 ## ... with marcvalidate
 
-While `yaz-marcdump` and `xmllint` are useful to identify structural problems within MARC records, `marcvalidate` can be used to validate MARC tags and subfields against a [Avram](https://format.gbv.de/schema/avram/specification) specification. The default specification was build by [Péter Király](https://pkiraly.github.io/2018/01/28/marc21-in-json/) based on the MARC documentation of the Library of Congress. The specification can be enhanced with local defined fields.
+While `yaz-marcdump` and `xmllint` are useful to identify structural problems within MARC records, `marcvalidate` can be used to validate MARC tags and subfields against an [Avram](https://format.gbv.de/schema/avram/specification) specification. The default specification was build by [Péter Király](https://pkiraly.github.io/2018/01/28/marc21-in-json/) based on the MARC documentation of the Library of Congress. The specification can be enhanced with local defined fields.
 
 By default `marcvalidate` expects "MARC (ISO 2709)" records:
 
