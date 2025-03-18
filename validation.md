@@ -106,9 +106,9 @@ Use `xmllint` to validate "MARC XML" data against the MARC [XSD schema](https://
 If you just want validate the structure of "MARC XML" records, use the options `--noout` (which will omit any other output) and `--schema` (path to XSD file):
 
 ```terminal
-$ xmllint --noout --schema http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd loc.mrc.xml
+$ xmllint --noout --schema MARC21slim.xsd loc.mrc.xml
 loc.mrc.xml validates
-$ xmllint --noout --schema http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd chabon-bad-subfields-element.xml
+$ xmllint --noout --schema MARC21slim.xsd chabon-bad-subfields-element.xml
 chabon-bad-subfields-element.xml:8: element subfields: Schemas validity error : Element '{http://www.loc.gov/MARC21/slim}subfields': This element is not expected. Expected is ( {http://www.loc.gov/MARC21/slim}subfield ).
 chabon-bad-subfields-element.xml fails to validate
 ``` 
