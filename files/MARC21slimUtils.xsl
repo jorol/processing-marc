@@ -175,8 +175,3 @@
 		</xsl:if>
 	</xsl:template>
 </xsl:stylesheet>
-<!-- Stylus Studio meta-information - (c)1998-2002 eXcelon Corp.
-<metaInformation>
-<scenarios/><MapperInfo srcSchemaPath="" srcSchemaRoot="" srcSchemaPathIsRelative="yes" srcSchemaInterpretAsXML="no" destSchemaPath="" destSchemaRoot="" destSchemaPathIsRelative="yes" destSchemaInterpretAsXML="no"/>
-</metaInformation>
--->
